@@ -14,4 +14,4 @@ def test_health():
 
     data = response.get_json()
     assert data["status"] == "healthy"
-    assert data["version"] == "1.0"
+    assert data["version"] == "2.0"
